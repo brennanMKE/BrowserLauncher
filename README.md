@@ -6,7 +6,7 @@ Special access to resources can also be implemented in XPC so critical features 
 
 One key resource is the system keychain. Accessing credentials using a service which passes back what the main process needs is a good way to harden a Mac app. When a service has not been used after a timeout period it could be released. When needed again a new connection can be made to access the service.
 
-# Swift Implementation
+## Swift Implementation
 
 The default template provided with Xcode only offers Objective-C code. It is possible to do everything with Swift instead. This Gist shows how this can be done.
 
@@ -16,3 +16,8 @@ The default template provided with Xcode only offers Objective-C code. It is pos
 * [Client.swift](https://github.com/brennanMKE/BrowserLauncher/blob/main/BrowserLauncher/Client.swift)
 
 The Mac app would include the `Client` while the rest is in the XPC service target.
+
+## References
+
+* [EvenBetterAuthorizationSample](https://developer.apple.com/library/archive/samplecode/EvenBetterAuthorizationSample/Introduction/Intro.html)
+* [XPC Mach Services from App Bundle?](https://developer.apple.com/forums/thread/132912) (Apple Developer Forums)

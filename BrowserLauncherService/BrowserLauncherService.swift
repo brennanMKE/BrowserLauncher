@@ -13,7 +13,7 @@ import AppKit
     let log  = OSLog(subsystem: "com.smallsharptools.BrowserLauncherService", category: "service")
 
     func launch(_ url: URL) async {
-        // Note: Open Console and use Action many to Include Info Messages
+        // Note: Open Console and use Action menu to Include Info Messages
         os_log("Opening URL: %{public}@", log: log, type: .info, url.absoluteString)
 
 #if canImport(AppKit)
