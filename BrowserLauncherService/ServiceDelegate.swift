@@ -1,4 +1,5 @@
 import Foundation
+import BrowserLauncherKit
 
 public class ServiceDelegate: NSObject, NSXPCListenerDelegate {
 

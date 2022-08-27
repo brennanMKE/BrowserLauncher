@@ -1,5 +1,5 @@
 import Foundation
-import BrowserLauncherService
+import BrowserLauncherKit
 
 struct Client {
     private let serviceName = "com.smallsharptools.BrowserLauncherService"
