@@ -20,7 +20,7 @@
 		2683E9FF28A081600020BF70 /* BrowserLauncherService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 2683E9F428A081600020BF70 /* BrowserLauncherService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2683EA0528A081820020BF70 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683EA0428A081820020BF70 /* Service.swift */; };
 		2683EA0728A0819B0020BF70 /* ServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683EA0628A0819B0020BF70 /* ServiceDelegate.swift */; };
-		2683EA0928A081B60020BF70 /* BrowserLauncherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683EA0828A081B60020BF70 /* BrowserLauncherService.swift */; };
+		2683EA0928A081B60020BF70 /* DefaultBrowserLauncherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683EA0828A081B60020BF70 /* DefaultBrowserLauncherService.swift */; };
 		2683EA0B28A0823F0020BF70 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683EA0A28A0823F0020BF70 /* Client.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +98,7 @@
 		2683E9FC28A081600020BF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2683EA0428A081820020BF70 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		2683EA0628A0819B0020BF70 /* ServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDelegate.swift; sourceTree = "<group>"; };
-		2683EA0828A081B60020BF70 /* BrowserLauncherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserLauncherService.swift; sourceTree = "<group>"; };
+		2683EA0828A081B60020BF70 /* DefaultBrowserLauncherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrowserLauncherService.swift; sourceTree = "<group>"; };
 		2683EA0A28A0823F0020BF70 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		2683EA0C28A087DD0020BF70 /* Service.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Service.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,7 @@
 			children = (
 				2683EA0428A081820020BF70 /* Service.swift */,
 				2683EA0628A0819B0020BF70 /* ServiceDelegate.swift */,
-				2683EA0828A081B60020BF70 /* BrowserLauncherService.swift */,
+				2683EA0828A081B60020BF70 /* DefaultBrowserLauncherService.swift */,
 				2683E9FC28A081600020BF70 /* Info.plist */,
 				2683EA0C28A087DD0020BF70 /* Service.xcconfig */,
 			);
@@ -365,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2683EA0728A0819B0020BF70 /* ServiceDelegate.swift in Sources */,
-				2683EA0928A081B60020BF70 /* BrowserLauncherService.swift in Sources */,
+				2683EA0928A081B60020BF70 /* DefaultBrowserLauncherService.swift in Sources */,
 				2683EA0528A081820020BF70 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
